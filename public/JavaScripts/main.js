@@ -53,7 +53,7 @@ $(function () {
     };
     //隐藏登录框，显示聊天界面
     let beginChat = function (data) {
-        $('#loginbox').hide('slow');
+        $('#loginbox').hide();
         _$inputname.off('keyup');
         _$loginButton.off('click');
         $(`<h2 style="text-align: center">${_username}的聊天室</h2>`).insertBefore($('#content'));
